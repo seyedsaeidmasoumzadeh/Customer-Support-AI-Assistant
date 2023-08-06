@@ -11,7 +11,7 @@ make build
 
 ### Running jupyter lab
 - Provides an interactive environment to explore the notebook used for Data Analysis, Motivations, Model implementations, and Evaluations.  
-- You can also see the HTML version of the notebook [here](notebook/ai_assistant.html).
+- You can also see the HTML version of the notebook [here](https://nbviewer.org/github/seyedsaeidmasoumzadeh/Customer-Support-AI-Assistant/blob/master/notebook/ai_assistant.ipynb).
 
 ```
 make jupyter
