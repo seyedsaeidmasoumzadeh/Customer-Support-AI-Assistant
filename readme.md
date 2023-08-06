@@ -1,6 +1,7 @@
 ## Enhancing Customer Support in Order and Delivery Service with a Large Language Model AI Assistant
  
 <br>
+
 ### Build container 
 - This is the first thing you need to do 
 
@@ -60,7 +61,13 @@ else:
 2. This is an example of what the model generated for the above code
 
 ```
-output: ['You are welcome to make an appointment. Please be sure to check the status of your order and to ensure the delivery has been made to your address.', 'I am very sorry for your inconvenience, however, I will do my best to expedite your order for you.', "I'll keep you updated on the status.", "I'm not sure if you received the wrong order, or that the product was defective. If you are not satisfied with the product, there is no way to refund the money that you paid.", 'I will do my best to reach out for your assistance in the future. I will be adding you to the list of items that have been shipping.']
+output: [
+    'You are welcome to make an appointment. Please be sure to check the status of your order and to ensure the delivery has been made to your address.',
+    'I am very sorry for your inconvenience, however, I will do my best to expedite your order for you.',
+    "I'll keep you updated on the status.",
+    "I'm not sure if you received the wrong order, or that the product was defective. If you are not satisfied with the product, there is no way to refund the money that you paid.",
+    'I will do my best to reach out for your assistance in the future. I will be adding you to the list of items that have been shipping.'
+    ]
 ```
 
 
