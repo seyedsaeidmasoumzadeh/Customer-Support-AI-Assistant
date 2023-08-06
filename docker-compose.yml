@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  ai_assistant:
+    image: ai_assistant
+    shm_size: '10gb'
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - dev-env.txt
+    volumes:
+      - .:/home/code/
+      - ~/.cache:/cache
+  linter:
+    build:
+      context: .
+      dockerfile: Dockerfile.linter
+    volumes:
+      - .:/home/code    
