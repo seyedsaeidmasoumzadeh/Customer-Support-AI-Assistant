@@ -3,7 +3,7 @@ import os
 
 from fastapi import FastAPI
 from pydantic import BaseModel
-from model import GenerativeModel 
+from model import GenerativeModel
 import uvicorn
 
 
